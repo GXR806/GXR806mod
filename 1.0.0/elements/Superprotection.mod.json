@@ -1,0 +1,30 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "超级防御",
+    "splashName": "喷溅型超级防御",
+    "lingeringName": "滞留型超级防御",
+    "arrowName": "超级防御之箭",
+    "effects": [
+      {
+        "effect": {
+          "value": "REGENERATION"
+        },
+        "duration": 3600,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 3600,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

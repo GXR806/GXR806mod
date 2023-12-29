@@ -1,0 +1,211 @@
+{
+  "mod_elements": [
+    {
+      "name": "God",
+      "type": "enchantment",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mymod/enchantment/GodEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Godl",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mymod/procedures/GodlProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mymod",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mymod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Quickset",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quickset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mymod/item/QuicksetItem.java",
+          "src/main/resources/assets/gxr/models/item/quickset.json"
+        ]
+      }
+    },
+    {
+      "name": "QuicksetDangShiTiHuiDongWuPinShi",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quickset_dang_shi_ti_hui_dong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mymod/procedures/QuicksetDangShiTiHuiDongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quickequipment",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quickequipment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gxr/models/item/quickequipment.json",
+          "src/main/java/net/mcreator/mymod/item/QuickequipmentItem.java"
+        ]
+      }
+    },
+    {
+      "name": "QuickequipmentDangShiTiHuiDongWuPinShi",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quickequipment_dang_shi_ti_hui_dong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mymod/procedures/QuickequipmentDangShiTiHuiDongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poshangfeng",
+      "type": "enchantment",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poshangfeng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mymod/enchantment/PoshangfengEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Poshangfengliucheng",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poshangfengliucheng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mymod/procedures/PoshangfengliuchengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Superprotection",
+      "type": "potion",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superprotection",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.gxr.quickset": "快速设置规则",
+      "enchantment.gxr.poshangfeng": "破伤风",
+      "item.minecraft.splash_potion.effect.superprotection": "喷溅型超级防御",
+      "item.minecraft.potion.effect.superprotection": "超级防御",
+      "item_group.gxr.mymod": "GXR806",
+      "enchantment.gxr.godf": "超级锋利",
+      "item.minecraft.tipped_arrow.effect.superprotection": "超级防御之箭",
+      "item.gxr.quickequipment": "超级装备",
+      "item.minecraft.lingering_potion.effect.superprotection": "滞留型超级防御"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gxr",
+    "modName": "GXR",
+    "version": "1.0.0",
+    "description": "这个模组添加了一些脑洞大开的简单东西",
+    "author": "郭笑然",
+    "websiteURL": "https://gxr806.site",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "技术支持：Mcreator",
+    "modElementsPackage": "net.mcreator.mymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
